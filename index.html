@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajibola Fatih | Practice</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+ <aside id="toggle" >
+        <img src="/assets/images/icon-menu-close.svg" align="right"  id="menu-close-icon" onclick="slide()">
+      <ol id="sidebar"> 
+        <li>Home</li>
+        <li>New</li>
+        <li>Popular</li>
+        <li>Trending</li>
+        <li>Categories</li>
+      </ol>
+ </aside>
+  
+  <div style="padding: 0.7rem;">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+      <div>
+          <img src="logo.svg" alt="logo" height="30rem;">
+      </div>
+      <div>
+          <img src="/assets/images/icon-menu.svg" onclick="slide()">
+    
+      </div>
+  </div> <br>
+  <img src="image-web-3-mobile.jpg" width="320rem"> <br><br>
+  <span style="color: hsl(240, 100%, 5%); font-family: Inter; font-weight: 800; font-size: xxx-large;">The Bright <br> Future of Web <br>3.0?</span>
+  
+  <p style="font-family: Inter, sans-serif; font-weight: 400; color: hsl(236, 13%, 42%); font-size: 17px; line-height: 1.5;">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+  But is it really fulfilling its promise?</p>
+
+  <button style="background: hsl(5, 85%, 63%); border: none; width: 10rem; height: 3rem; color: hsl(36, 100%, 99%); font-weight: bold; font-size: 20px; letter-spacing: 1.9px;">READ MORE</button>
+ <br><br><br><br>
+ <div style="background: hsl(240, 100%, 5%); color: hsl(36, 100%, 99%); padding: 1rem;">
+ <span style="color: hsl(35, 77%, 62%); font-family: Inter; font-weight: 800; font-size: 30px;"> New</span> 
+<br><br><br>
+  <span style="font-family: Inter; font-weight: bold; font-size: 22px;">Hydrogen VS Electric Cars</span><br><br>
+  <span style="font-family: Inter; font-size: 19px;">Will hydrogen-fueled cars ever catch up to EVs?</span> <br><br>
+  <hr> 
+  <br>
+ <span style="font-family: Inter; font-size: 22px; font-weight: bold;"> The Downsides of AI Artistry</span><br><br>
+  <span style="font-family: Inter; font-size: 17px;">What are the possible adverse effects of on-demand AI image generation?</span> <br><br>
+  <hr> <br>
+ <span style="font-family: Inter; font-size: 22px; font-weight: bold;">Is VC Funding Drying Up?</span><br><br>
+  <span style="font-family: Inter; font-size: 17px;">Private funding by VC firms is down 50% YOY. We take a look at what that means.</span><br><br>
+</div>
+<br><br><br><br>
+<div class="retro-images">
+  <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr;">
+      <img src="image-retro-pcs.jpg" height="115px">
+     <div style="display: flex; flex-direction: column; margin-right: 40px; width: 12rem; margin-left: 20px;"> 
+        <span style="color: hsl(236, 13%, 42%); font-weight: 900; font-size: 30px;"> 01</span>
+          <div> 
+            <span style="color: hsl(240, 100%, 5%); font-weight: 700; font-size: 20px;">Reviving Retro PCs</span> <br><br>
+            <span style="font-family: Inter, sans-serif; font-weight: 400; color: hsl(236, 13%, 42%); font-size: 16px; margin-top: 10px;"> What happens when old PCs are given modern upgrades?</span>
+          </div>
+      </div>
+</div><br><br>
+ <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr;">
+     <img src="/assets/images/image-top-laptops.jpg" height="115px">
+      <div style="display: flex; flex-direction: column; margin-right: 40px; width: 12rem; margin-left: 20px;">
+        <div style="color: hsl(236, 13%, 42%); font-weight: 900; font-size: 30px;"> 02</div>
+ <div> <span style="color: hsl(240, 100%, 5%); font-weight: 700; font-size: 20px;"> Top 10 Laptops of 2022</span></div>
+  <span style="font-family: Inter, sans-serif; font-weight: 400; color: hsl(236, 13%, 42%); font-size: 16px; margin-top: 10px;"> Our best picks for various needs and budgets.</span></div>
+     </div>
+
+     <br><br>
+<div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr;">
+    <img src="/assets/images/image-gaming-growth.jpg" height="115px">  
+  <div style="display: flex; flex-direction: column; margin-right: 40px; width: 12rem; margin-left: 20px;">
+        <div style="color: hsl(236, 13%, 42%); font-weight: 900; font-size: 30px;"> 03</div>
+ <div> <span style="color: hsl(240, 100%, 5%); font-weight: 700; font-size: 20px;">The Growth of Gaming</span></div>
+  <span style="font-family: Inter, sans-serif; font-weight: 400; color: hsl(236, 13%, 42%); font-size: 16px; margin-top: 10px;"> How the pandemic has sparked fresh opportunities.</span></div>
+     </div>
+
+  </div>
+  
+  <script>
+      function slide(){
+          let bar = document.getElementById("toggle");
+          if(bar.style.display === "none") {
+              bar.style.display ="block";
+          }else {
+              bar.style.display ="none";
+          }
+          
+      }     
+  </script>
+  
+</div>
+</body>
+</html>
