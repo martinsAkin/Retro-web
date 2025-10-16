@@ -23,6 +23,58 @@
     padding-left: 2rem;
 }
 
+
+/* contact us styling */
+.back-button{
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 20px;
+    background: orange;
+    color: white;
+    border: none;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    background: grey;
+    padding: 15px;
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+form > div > label {
+    display: block;
+}
+form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, textarea{
+    margin-top: 5px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    
+}
+#submit{
+     border: none;
+     border-radius: 5px;
+     background: blue;
+     color: white;
+     padding: 10px;
+}
+
+/* news styling */
+.news-heading{
+    font-size: 20px;
+    color: white;
+}
+
+
 @media (min-width: 768px) {
     .retro-images img{
         width: 400px;
